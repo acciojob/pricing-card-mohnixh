@@ -1,1 +1,53 @@
-/*  your css code here. If applicable */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height to center the card */
+    margin: 0;
+    background-color: #f0f0f0; /* Light gray background for contrast */
+}
+
+.card {
+    width: 300px; /* Width of the card */
+    padding: 20px; /* Padding inside the card */
+    background-color: #ffffff; /* White background for the card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center text alignment */
+}
+
+.card-image {
+    width: 100%; /* Image takes full width of the card */
+    border-radius: 8px; /* Rounded corners for the image */
+}
+
+.card-title {
+    font-size: 24px; /* Title font size */
+    margin: 15px 0; /* Margin above and below the title */
+}
+
+.card-price {
+    font-size: 20px; /* Price font size */
+    color: #2c3e50; /* Darker color for the price */
+}
+
+.card-description {
+    font-size: 16px; /* Description font size */
+    color: #7f8c8d; /* Gray color for the description */
+    margin: 10px 0; /* Margin above and below the description */
+}
+
+.buy-now {
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #27ae60; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for the button */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.buy-now:hover {
+    background-color: #219653; /* Darker green on hover */
+}
